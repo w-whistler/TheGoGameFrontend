@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@models/*": ["src/models/*"],
+      "@models": ["src/models/index.ts"],
+      "@enums/*": ["src/enums/*"],
+      "@enums": ["src/enums/index.ts"],
+      "@components/*": ["src/components/*"],
+      "@components": ["src/components/index.ts"],
+      "@navigations/*": ["src/navigations/*"],
+      "@navigations": ["src/navigations/index.ts"],
+      "@store/*": ["src/store/*"],
+      "@store": ["src/store/index.ts"],
+      "@screens/*": ["src/screens/*"],
+      "@screens": ["src/screens/index.ts"],
+      "@services/*": ["src/services/*"],
+      "@services": ["src/services/index.ts"],
+      "@utils/*": ["src/utils/*"]
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}
